@@ -1,12 +1,9 @@
 # Guidelines
 
-This document describes the contribution process for the BIBFRAME Ontology. 
+This document describes the contribution process for the BFLC extension vocabulary.
 
 ## Communication
 
-Please use the [Bibliographic Framework Transition Initiative Forum](mailto:BIBFRAME@LISTSERV.LOC.GOV) for general discussion, questions and feedback.  
+Just email people in the department, sheesh.  Let's not make it too hard.
 
-## Contributing
-Please file issues in github for problems or questions with the ontology.
-
-No pull requests are accepted at this time.
+Alternatively, open an issue and make it reasonably clear and detailed.
