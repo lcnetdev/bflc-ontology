@@ -1,4 +1,4 @@
-## Bibframe & BFLC Changelog
+## BFLC Changelog
 
 ### BFLC 1.2.0
 Minor Release
