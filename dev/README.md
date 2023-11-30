@@ -2,7 +2,7 @@
 
 ### BFLC 2.3.0
 
-Link: [http://id.loc.gov/ontologies/bflc-2-2-0](http://id.loc.gov/ontologies/bflc-2-3-0)
+Link: [http://id.loc.gov/ontologies/bflc-2-3-0](http://id.loc.gov/ontologies/bflc-2-3-0)
 
 Changes
  * New Classes
