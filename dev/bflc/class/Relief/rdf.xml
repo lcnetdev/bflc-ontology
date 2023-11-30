@@ -9,4 +9,7 @@
  <dcterms:modified>
   2019-05-07 (New [GH13])
  </dcterms:modified>
+ <dcterms:modified>
+  2023-11-30 (Added to BF [GH104])
+ </dcterms:modified>
 </owl:Class>
