@@ -1,5 +1,42 @@
 ## BFLC Changelog
 
+### BFLC 2.2.0
+
+Link: [http://id.loc.gov/ontologies/bflc-2-2-0](http://id.loc.gov/ontologies/bflc-2-2-0)
+
+Changes
+ * New Classes
+    * [MovingImageTechnique](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/MovingImageTechnique/rdf.xml)
+    * [GovernmentPubType](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/GovernmentPubType/rdf.xml)
+    * [SerialPubType](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/SerialPubType/rdf.xml)
+    * [CaptureStorage](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/CaptureStorage/rdf.xml)
+    * [SoundCharacteristic](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/SoundCharacteristic/rdf.xml)
+    * [Uncontrolled](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/Uncontrolled/rdf.xml)
+    * [Deprecated](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/Deprecated/rdf.xml)
+
+ * Deleted Classes
+    * Eidr
+
+  * New Properties
+    * [movingImageTechnique](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/movingImageTechnique/rdf.xml)
+    * [governmentPubType](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/governmentPubType/rdf.xml)
+    * [serialPubType](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/serialPubType/rdf.xml)
+    * [simpleAgent](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/simpleAgent/rdf.xml)
+    * [simplePlace](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/simplePlace/rdf.xml)
+    * [simpleDate](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/simpleDate/rdf.xml)
+    * [distributionStatement](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/distributionStatement/rdf.xml)
+    * [productionStatement](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/productionStatement/rdf.xml)
+    * [publicationStatement](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/publicationStatement/rdf.xml)
+    * [manufactureStatement](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/manufactureStatement/rdf.xml)
+    * [aap](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/aap/rdf.xml)
+    * [aap-normalized](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/aap-normalized/rdf.xml)
+    * [marcKey](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/marcKey/rdf.xml)
+
+ * Deleted Properties
+    * title40MarcKey
+
+---
+
 ### BFLC 1.2.0
 Minor Release
 
@@ -7,10 +44,10 @@ Link: [http://id.loc.gov/ontologies/bflc-1-2-0](http://id.loc.gov/ontologies/bfl
 
 Changes
  * New Classes
-    * [Relief](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/Relief/rdf.xml)
+    * [Relief](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/Relief/rdf.xml)
 
   * New ObjectProperty  
-    * [relief](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/property_object/relief/rdf.xml)
+    * [relief](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_object/relief/rdf.xml)
 
 ---
 
@@ -24,24 +61,24 @@ Github issues closed:
  
 Changes
  * New Classes
-    * [Eidr](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/Eidr/rdf.xml)
-    * [GrooveCutting](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/GrooveCutting/rdf.xml)
-    * [SeriesAnalysis](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/SeriesAnalysis/rdf.xml)
-    * [SeriesClassification](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/SeriesAnalysis/rdf.xml)
-    * [SeriesNumbering](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/SeriesNumbering/rdf.xml)
-    * [SeriesNumberingPeculiarities](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/SeriesNumberingPeculiarities/rdf.xml)
-    * [SeriesProvider](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/SeriesProvider/rdf.xml)
-    * [SeriesTracing](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/SeriesTracing/rdf.xml)
-    * [TransliteratedTitle](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/class/TransliteratedTitle/rdf.xml)
+    * [Eidr](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/Eidr/rdf.xml)
+    * [GrooveCutting](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/GrooveCutting/rdf.xml)
+    * [SeriesAnalysis](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/SeriesAnalysis/rdf.xml)
+    * [SeriesClassification](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/SeriesAnalysis/rdf.xml)
+    * [SeriesNumbering](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/SeriesNumbering/rdf.xml)
+    * [SeriesNumberingPeculiarities](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/SeriesNumberingPeculiarities/rdf.xml)
+    * [SeriesProvider](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/SeriesProvider/rdf.xml)
+    * [SeriesTracing](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/SeriesTracing/rdf.xml)
+    * [TransliteratedTitle](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/class/TransliteratedTitle/rdf.xml)
 
   * Changes to Existing Classes 
     * [AppliesTo - typo](https://github.com/lcnetdev/bibframe-ontology/commit/0dd82931ab4ea8e6c3f107c2d429621b68cde400#diff-301385cea73657f6cbfabbfe39afbb6d)
 
   * New ObjectProperty  
-    * [alternateMediumOfPerformance](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/property_datatype/alternateMediumOfPerformance/rdf.xml)
-    * [indexedIn](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/property_datatype/indexedIn/rdf.xml)
-    * [seriesTreatment](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/property_datatype/seriesTreatment/rdf.xml)
-    * [target](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/property_datatype/target/rdf.xml)
+    * [alternateMediumOfPerformance](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_datatype/alternateMediumOfPerformance/rdf.xml)
+    * [indexedIn](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_datatype/indexedIn/rdf.xml)
+    * [seriesTreatment](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_datatype/seriesTreatment/rdf.xml)
+    * [target](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_datatype/target/rdf.xml)
 
   * Changes to Existing ObjectProperty 
     * [appliesTo - typo](https://github.com/lcnetdev/bibframe-ontology/commit/0dd82931ab4ea8e6c3f107c2d429621b68cde400#diff-986127d9f95c7a11d2d4414de076a868)
@@ -50,9 +87,9 @@ Changes
     * [projectedProvisionDate - clarification](https://github.com/lcnetdev/bibframe-ontology/commit/0dd82931ab4ea8e6c3f107c2d429621b68cde400#diff-2d73a1bdb3acfe16e8d9bc458ea68978)
 
   * New DatatypeProperty 
-    * [catalogerId](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/property_datatype/catalogerId/rdf.xml)
-    * [procInfo](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/property_datatype/procInfo/rdf.xml)
-    * [profile](https://github.com/lcnetdev/bibframe-ontology/blob/master/dev/bflc/property_datatype/profile/rdf.xml)
+    * [catalogerId](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_datatype/catalogerId/rdf.xml)
+    * [procInfo](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_datatype/procInfo/rdf.xml)
+    * [profile](https://github.com/lcnetdev/bflc-ontology/blob/master/dev/bflc/property_datatype/profile/rdf.xml)
 
   * Changes to Existing DatatypeProperty 
     * [primaryContributorName00MatchKey - typo](https://github.com/lcnetdev/bibframe-ontology/commit/0dd82931ab4ea8e6c3f107c2d429621b68cde400#diff-846005e134b0fd636716b5acee977303)
