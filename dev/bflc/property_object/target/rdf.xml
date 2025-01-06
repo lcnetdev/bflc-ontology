@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<owl:ObjectProperty rdf:about="http://id.loc.gov/ontologies/bflc/target" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<owl:ObjectProperty rdf:about="http://id.loc.gov/ontologies/bflc/target" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bf-abstract="http://bibframe.org/model-abstract/" xmlns:bflc="http://id.loc.gov/ontologies/bflc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:marc-fields="http://bibframe.org/marc/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rda-fields="http://bibframe.org/rda/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
  <skos:definition>
   End resource of a BIBFRAME structure.
  </skos:definition>
- <rdfs:comment>
+ <rdfs:comment xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
   Used with Work, Instance or Item
  </rdfs:comment>
- <rdfs:label>
+ <rdfs:label xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
   Target resource
  </rdfs:label>
- <dcterms:modified>
+ <bf-abstract:sort xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  3g
+ </bf-abstract:sort>
+ <bf-abstract:pos xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  5
+ </bf-abstract:pos>
+ <bf-abstract:status xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  bibframe deprecated
+ </bf-abstract:status>
+ <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
   2018-07-12 (New)
+ </dcterms:modified>
+ <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  2022-10-03 (Deprecated [GH4])
  </dcterms:modified>
 </owl:ObjectProperty>
