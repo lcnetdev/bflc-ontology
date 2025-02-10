@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <owl:Ontology rdf:about="http://id.loc.gov/ontologies/bflc/" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bf-abstract="http://bibframe.org/model-abstract/" xmlns:bflc="http://id.loc.gov/ontologies/bflc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:marc-fields="http://bibframe.org/marc/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rda-fields="http://bibframe.org/rda/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  2.4.0
+  2.5.0
  </owl:versionInfo>
  <owl:ontologyIRI rdf:resource="http://id.loc.gov/ontologies/bflc/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
- <owl:versionIRI rdf:resource="http://id.loc.gov/ontologies/bflc-2-4-0/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
- <owl:priorVersion rdf:resource="http://id.loc.gov/ontologies/bflc-2-3-0/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
+ <owl:versionIRI rdf:resource="http://id.loc.gov/ontologies/bflc-2-5-0/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
+ <owl:priorVersion rdf:resource="http://id.loc.gov/ontologies/bflc-2-4-0/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
  <rdfs:label xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
   BIBFRAME vocabulary with LC extensions
  </rdfs:label>
  <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  2024-08-23T12:00:00.000-05:00
+  2025-01-24T12:00:00.000-05:00
  </dcterms:issued>
  <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  2024-08-23T12:55:49.31076-04:00
+  2025-01-24T14:35:49.682270383-05:00
  </dcterms:modified>
  <dcterms:creator rdfs:resource="http://id.loc.gov/vocabulary/organizations/dlc" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
  <dcterms:publisher rdfs:resource="http://id.loc.gov/vocabulary/organizations/dlcmrc" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>

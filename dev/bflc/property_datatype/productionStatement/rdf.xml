@@ -29,4 +29,7 @@
  <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
   2024-07-10 (Moved to BF [GH23])
  </dcterms:modified>
+ <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  2025-01-24 (Deprecated [GH24])
+ </dcterms:modified>
 </owl:DatatypeProperty>

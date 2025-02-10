@@ -2,19 +2,19 @@
 <rdf:RDF xml:base="http://id.loc.gov/ontologies/bflc/" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bf-abstract="http://bibframe.org/model-abstract/" xmlns:bflc="http://id.loc.gov/ontologies/bflc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:marc-fields="http://bibframe.org/marc/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rda-fields="http://bibframe.org/rda/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
  <owl:Ontology rdf:about="http://id.loc.gov/ontologies/bflc/">
   <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   2.5.0
+   2.4.0
   </owl:versionInfo>
   <owl:ontologyIRI rdf:resource="http://id.loc.gov/ontologies/bflc/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
-  <owl:versionIRI rdf:resource="http://id.loc.gov/ontologies/bflc-2-5-0/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
-  <owl:priorVersion rdf:resource="http://id.loc.gov/ontologies/bflc-2-4-0/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
+  <owl:versionIRI rdf:resource="http://id.loc.gov/ontologies/bflc-2-4-0/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
+  <owl:priorVersion rdf:resource="http://id.loc.gov/ontologies/bflc-2-3-0/" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
   <rdfs:label xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
    BIBFRAME vocabulary with LC extensions
   </rdfs:label>
   <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   2025-01-24T12:00:00.000-05:00
+   2024-08-23T12:00:00.000-05:00
   </dcterms:issued>
   <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   2025-01-24T14:35:49.682270383-05:00
+   2024-08-23T12:55:49.31076-04:00
   </dcterms:modified>
   <dcterms:creator rdfs:resource="http://id.loc.gov/vocabulary/organizations/dlc" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
   <dcterms:publisher rdfs:resource="http://id.loc.gov/vocabulary/organizations/dlcmrc" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
@@ -419,7 +419,7 @@
    22
   </bf-abstract:pos>
   <bf-abstract:status xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   bibframe deprecated
+   accepted
   </bf-abstract:status>
   <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
    2019-05-07 (New [GH13])
@@ -449,7 +449,7 @@
    23
   </bf-abstract:pos>
   <bf-abstract:status xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   bibframe deprecated
+   accepted
   </bf-abstract:status>
   <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
    2019-05-20 (New [GH16])
@@ -947,7 +947,8 @@
    2021-11-02 (New [GH12])
   </dcterms:modified>
  </owl:ObjectProperty>
- <owl:DatatypeProperty rdf:about="http://id.loc.gov/ontologies/bflc/projectedProvisionDate">
+ <owl:ObjectProperty rdf:about="http://id.loc.gov/ontologies/bflc/projectedProvisionDate">
+  <rdfs:range rdf:resource="http://id.loc.gov/ontologies/bflc/date"/>
   <skos:definition>
    Projected date of publication of the resource.
   </skos:definition>
@@ -972,7 +973,7 @@
   <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
    2017-02-02 (New)
   </dcterms:modified>
- </owl:DatatypeProperty>
+ </owl:ObjectProperty>
  <owl:ObjectProperty rdf:about="http://id.loc.gov/ontologies/bflc/relief">
   <rdfs:range rdf:resource="http://id.loc.gov/ontologies/bflc/Relief"/>
   <skos:definition>
@@ -994,7 +995,7 @@
    18
   </bf-abstract:pos>
   <bf-abstract:status xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   bibframe deprecated
+   accepted
   </bf-abstract:status>
   <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
    2019-05-07 (New [GH13])
@@ -1117,9 +1118,6 @@
   <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
    2024-07-10 (Moved to BF [GH23])
   </dcterms:modified>
-  <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   2025-01-24 (Deprecated [GH24])
-  </dcterms:modified>
  </owl:DatatypeProperty>
  <owl:DatatypeProperty rdf:about="http://id.loc.gov/ontologies/bflc/manufactureStatement">
   <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
@@ -1150,9 +1148,6 @@
   </dcterms:modified>
   <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
    2024-07-10 (Moved to BF [GH23])
-  </dcterms:modified>
-  <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   2025-01-24 (Deprecated [GH24])
   </dcterms:modified>
  </owl:DatatypeProperty>
  <owl:DatatypeProperty rdf:about="http://id.loc.gov/ontologies/bflc/productionStatement">
@@ -1185,9 +1180,6 @@
   <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
    2024-07-10 (Moved to BF [GH23])
   </dcterms:modified>
-  <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   2025-01-24 (Deprecated [GH24])
-  </dcterms:modified>
  </owl:DatatypeProperty>
  <owl:DatatypeProperty rdf:about="http://id.loc.gov/ontologies/bflc/publicationStatement">
   <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/"/>
@@ -1218,9 +1210,6 @@
   </dcterms:modified>
   <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
    2024-07-10 (Moved to BF [GH23])
-  </dcterms:modified>
-  <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-   2025-01-24 (Deprecated [GH24])
   </dcterms:modified>
  </owl:DatatypeProperty>
  <owl:ObjectProperty rdf:about="http://id.loc.gov/ontologies/bflc/indexedIn">

@@ -20,7 +20,7 @@
   18
  </bf-abstract:pos>
  <bf-abstract:status xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  accepted
+  bibframe deprecated
  </bf-abstract:status>
  <dcterms:modified xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
   2019-05-07 (New [GH13])
