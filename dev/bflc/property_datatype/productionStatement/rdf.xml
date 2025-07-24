@@ -4,7 +4,7 @@
  <skos:definition>
   Statement related to the production of the resource; usually transcribed.
  </skos:definition>
- <rdfs:subPropertyOf rdf:resource="http://id.loc.gov/ontologies/bflc/bf:provisionActivityStatement"/>
+ <rdfs:subPropertyOf rdf:resource="http://id.loc.gov/ontologies/bibframe/provisionActivityStatement"/>
  <rdfs:comment xmlns:cc="http://creativecommons.org/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
   Used with Work, Instance or Item
  </rdfs:comment>

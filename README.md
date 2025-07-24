@@ -7,7 +7,7 @@ robust data exchange that has supported resource sharing and cataloging cost
 savings in recent decades.
 
 ## Bibframe Extension Vocabulary
-This repository contains the Bibframe 2.x Extension Vocabulary [bflc.rdf](bflc.rdf) 
+This repository contains the Bibframe Extension Vocabulary [bflc.rdf](bflc.rdf) 
 
 Properties and classes using this namespace are readily identifiable in the data as they begin with "bflc:".  It 
 is where LC minted the Hub class while experimenting with it for more than a year before 
